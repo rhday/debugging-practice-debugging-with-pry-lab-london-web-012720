@@ -1,3 +1,5 @@
+require 'pry'
+
 class GasStation
 
   # Remember which methods this "magic command", "attr_reader" creates.
@@ -9,10 +11,12 @@ class GasStation
   def initialize(brand, unleaded_price)
     @brand = brand
     @unleaded_price = unleaded_price
+    binding.pry
+  
   end
 
 end
 
+dinobones = GasStation.new("Dino Bones Gas and Grill", 100)
 petrol_petes = GasStation.new("Petrol Pete's", 50)
 seashore_shell = GasStation.new("The Seashore Shell", 40)
-dinobones = GasStation.new("Dino Bones Gas and Grill", 60)
