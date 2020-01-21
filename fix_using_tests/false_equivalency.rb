@@ -14,7 +14,7 @@ def selection(num)
      "HAM HAM HAM IN MY TUMMY"
   elsif num = 2
   elsif num == 2
-     "HAM HAM HAM IN MY TUMMY"
+     "YUM YUM MUNCH MUNCH MUNCH"
   end
 end
 def runner
