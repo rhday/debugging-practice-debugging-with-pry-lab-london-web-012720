@@ -1,3 +1,4 @@
+require_relative '../fix_using_tests/false_equivalency'
 def get_user_input
   gets.chomp
 end
