@@ -15,4 +15,3 @@ def selection(num)
   elsif num == 2
      "HAM HAM HAM IN MY TUMMY"
   end
-end
