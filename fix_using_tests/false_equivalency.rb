@@ -1,5 +1,3 @@
-require_relative '../fix_using_tests/false_equivalency'
-
 def get_user_input
   gets.chomp
 end
@@ -11,16 +9,21 @@ end
 
 def selection(num)
   if num = 1
-    if num = 1
-      "YUM YUM MUNCH MUNCH MUNCH"
+     "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
-  elsif num = 2
-      "HAM HAM HAM IN MY TUMMY"
+     "HAM HAM HAM IN MY TUMMY"
   end
-  num
+
+  case num 
+  when 1
+    "YUM YUM MUNCH MUNCH MUNCH"
+  when 2
+    "HAM HAM HAM IN MY TUMMY"
+  end 
+
 end
+
 def runner
   prompt_user
   selection(get_user_input)
-end
 end
